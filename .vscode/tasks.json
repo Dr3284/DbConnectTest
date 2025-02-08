@@ -5,8 +5,8 @@
   "tasks": [
     {
       "label": "build C++",
-      "command": "g++",
       "type": "shell",
+      "command": "g++",
       "args": [
         "-std=c++17",
         "main.cpp",
@@ -26,8 +26,8 @@
         "isDefault": true,
         // "presentation": 
         // "reveal": "silent"
-      },
-      "problemMatcher": "$msCompile"
+      }
+      // "problemMatcher": "$msCompile"
     }
   ]
 }
