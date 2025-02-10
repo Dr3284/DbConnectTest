@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "rCU716rv8Qg=",
+  "success": true,
+  "projectFilePath": "E:\\Documents\\自主製作\\VScode\\turnTable\\DbConnection\\DbConnection.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\bzmax\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.2\\microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
+    "C:\\Users\\bzmax\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.2\\microsoft.extensions.logging.abstractions.8.0.2.nupkg.sha512",
+    "C:\\Users\\bzmax\\.nuget\\packages\\npgsql\\9.0.2\\npgsql.9.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
