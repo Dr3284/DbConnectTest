@@ -9,7 +9,7 @@ class Program
 {
   static void Main()
   {
-    string connString = "Host=localhost;Username=testUser;Password=Drum3284;Database=testDb";
+    string connString = "Host=localhost;Username=testUser;Password=drum3284;Database=testDb";
 
     try
     {
@@ -18,12 +18,12 @@ class Program
         conn.Open();
         Console.WriteLine("Connected to PostgreSQL!");
 
-        using (var cmd = new NpgsqlCommand("SELECT * FROM test_table", conn))
+        using (var cmd = new NpgsqlCommand("SELECT daytime, test_no, test_name, value, comment FROM test_table", conn))
         using (var reader = cmd.ExecuteReader())
         {
           while (reader.Read())
           {
-            Console.WriteLine($"ID: {reader["id"]}, Name: {reader["name"]}");
+            Console.WriteLine($"test_no: {reader["test_no"]}, test_name: {reader["test_name"]}, all:{reader["daytime"]}");
             Console.WriteLine(cmd);
           }
         }
@@ -31,9 +31,11 @@ class Program
     }
     catch (Exception ex)
     {
-      byte[] bytes = Encoding.Default.GetBytes("エラーメッセージ");
-      string decode = Encoding.UTF8.GetString(Encoding.Convert(Encoding.Default, Encoding.UTF8, ex.Message));
-      Console.WriteLine($"Error: {decode}");
+      // byte[] bytes = Encoding.Default.GetBytes(ex.Message);
+      // byte[] bytes = Encoding.Default.GetBytes("エラーメッセージ");
+      // string decode = Encoding.UTF8.GetString(Encoding.Convert(Encoding.Default, Encoding.UTF8, bytes));
+      // Console.WriteLine($"Error: {decode}");
+      Console.WriteLine($"Error: {ex.Message}");
     }
   }
 }
