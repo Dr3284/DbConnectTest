@@ -190,11 +190,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Documents\\自主製作\\VScode\\turnTable\\DbConnection\\DbConnection.csproj",
+      "projectUniqueName": "E:\\Documents\\自主製作\\VScode\\DbConnection\\DbConnectTest\\DbConnection\\DbConnection.csproj",
       "projectName": "DbConnection",
-      "projectPath": "E:\\Documents\\自主製作\\VScode\\turnTable\\DbConnection\\DbConnection.csproj",
+      "projectPath": "E:\\Documents\\自主製作\\VScode\\DbConnection\\DbConnectTest\\DbConnection\\DbConnection.csproj",
       "packagesPath": "C:\\Users\\bzmax\\.nuget\\packages\\",
-      "outputPath": "E:\\Documents\\自主製作\\VScode\\turnTable\\DbConnection\\obj\\",
+      "outputPath": "E:\\Documents\\自主製作\\VScode\\DbConnection\\DbConnectTest\\DbConnection\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\bzmax\\AppData\\Roaming\\NuGet\\NuGet.Config"
